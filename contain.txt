@@ -1,0 +1,122 @@
+   <!--------------------------course------------------------------------>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dui magna.</p>
+
+        <div class="row">
+
+            <div class="col-lg-4 course-box">
+                <i class="fas fa-book-reader fa-7x"></i>
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-lg-4 course-box">
+                <i class="fas fa-graduation-cap fa-7x"></i>
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-lg-4 course-box">
+                <i class="fas fa-user-graduate fa-7x"></i>
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!--------------------------campus------------------------------------>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+
+        <div class="row campus-row">
+            <div class="col-lg-4 campus-col">
+                <img src="Images/london.png" alt="london.png" height="400px" width="300px">
+                <h2>LONDON</h2>
+            </div>
+            <div class="col-lg-4 campus-col">
+                <img src="Images/newyork.png" alt="newyork.png" height="400px" width="300px">
+                <h2>NEWYORK</h2>
+            </div>
+            <div class="col-lg-4 campus-col">
+                <img src="Images/washington.png" alt="washington.png" height="400px" width="300px">
+                <h2>WASHINGTON</h2>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--------------------------Facilities------------------------------------>
+    <section class="facilities">
+        <h1>Our Facilities.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="col-lg-4 fac-col">
+                <img src="Images/library.png" alt="library.png" style="height: 300px;width: 300px;">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-lg-4 fac-col">
+                <img src="Images/basketball.png" alt="basketball.png" style="height: 300px;width: 300px;">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-lg-4 fac-col">
+                <img src="Images/cafeteria.png" alt="cafeteria.png" style="height: 300px;width: 300px;">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!--------------------------Testimonials------------------------------------>
+
+    <section id="testimonials">
+        <h1>What Our Student Says</h1>
+        <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="testimonal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <img class="testimonial-image" src="Images/user1.jpg" alt="profile">
+                    <em>Beverly Illinois</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</h2>
+                    <img class="testimonial-image" src="Images/user2.jpg" alt="-profile">
+                    <em>Chris John</em>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+    <!--------------------------cta------------------------------------>
+
+    <section class="cta">
+
+        <h1> Enroll For Our Various Online Courses<br>
+            Anywhere From The World</h1>
+        <a href="index.html" class="main-btn">Contact Us</a>
+    </section>

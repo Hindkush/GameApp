@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+
+    <!-- ------------------------header---------------------------------- -->
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Game Hub</h1>
+            <p>Hey! Are you tired of seating alone and feeling bored let's start to entertain your self by clicking the below "Play Game" button. Enjoy our games.</p>
+            <a href="#testimonials" class="main-btn">Play Game</a>
+        </div>
+    </section>
+
+    <!--------------------------Testimonials------------------------------------>
+
+     <section id="testimonials">
+        <h1>Let's Start the Game</h1>
+        <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="testimonal-text">To Start the game just click on the below image.</h2>
+                   <a href="Quiz\index.html"> <img class="testimonial-image" src="Images/quiz.jpg" alt="profile"></a>
+                   <h3>Quiz Game</h3>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">To Start the game just click on the below image.</h2>
+                  <a href=""> <img class="testimonial-image" src="Images/mines.jpg" alt="-profile"></a> 
+                  <h3>Minesweeper</h3>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section> 
+    <!--------------------------footer------------------------------------>
+
+    <section id="footer">
+        <h4>Contact us</h4>
+        <p>If a query arises, feel free to contact us.Also, please share your  valuable feedback to us.</p>
+
+        <div class="icons">
+            <i class="social-icons fab fa-facebook"></i>
+            <i class="social-icons fab fa-instagram"></i>
+            <i class="social-icons fab fa-twitter"></i>
+            <i class="social-icons fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"> </i> By Wadians.</p>
+    </section>
+
+
+    <!--------------------------script------------------------------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
